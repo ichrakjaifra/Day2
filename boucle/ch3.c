@@ -5,7 +5,7 @@ int main() {
     printf("Entrez un entier : ");
     scanf("%d", &n);
 
-    printf("Les nombres premiers de 1 à %d sont :\n", n);
+   printf("Les nombres premiers de 1 à %d sont :\n", n);
 
     for (int i = 2; i <= n; i++) {
         int estPremier = 1;
@@ -21,6 +21,5 @@ int main() {
     }
 
     printf("\n");
-
     return 0;
 }
